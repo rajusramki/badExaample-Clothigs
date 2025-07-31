@@ -1,0 +1,19 @@
+import React from 'react';
+import { Container, Typography, Box } from '@mui/material';
+
+const ProductsPage: React.FC = () => {
+  return (
+    <Container maxWidth="lg" sx={{ py: 4 }}>
+      <Box textAlign="center">
+        <Typography variant="h2" gutterBottom>
+          Products
+        </Typography>
+        <Typography variant="body1" color="text.secondary">
+          Product catalog coming soon...
+        </Typography>
+      </Box>
+    </Container>
+  );
+};
+
+export default ProductsPage;
